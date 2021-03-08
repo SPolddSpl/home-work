@@ -1,0 +1,18 @@
+.rs-content {
+    height: 80%;
+}
+
+.rs-header {
+    height: 10%;
+}
+
+.rs-footer {
+    height: 10%;
+}
+
+.rs-container {
+    width: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
+    height: 100%;
+}
