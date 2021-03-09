@@ -19,11 +19,13 @@ class SearchService {
     search(searchInput: string): PeopleEntity[] {
         data.people.map(x => {
             x.name = x.name.toLowerCase()
+            return x;
         })
         const result = data.people.filter(x => x.name.match(searchInput.toLowerCase()));
         result.map(x => {
             x.avatar =`https://picsum.photos/200?random=${x.id}`;
             x.name = x.name[0].toUpperCase() + x.name.substr(1, x.name.length)
+            return x;
         })
         return result as PeopleEntity[];
     }

@@ -1,8 +1,9 @@
 .flex-main-container {
-    margin: 2% 0 0 0;
+  margin: 2% 0 0 0;
+  height: 100%;
 }
 
 .flex-main {
-    width: 90%;
-    height: 100%;
+  width: 90%;
+  height: 100%;
 }

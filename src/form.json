@@ -1,0 +1,66 @@
+[{
+        "id": "1",
+        "type": "text",
+        "class": "input",
+        "text": "Some text",
+        "children": [{
+            "id": "2",
+            "type": "textarea",
+            "class": "input",
+            "text": "Some text",
+            "children": [{
+                    "id": "3",
+                    "type": "",
+                    "class": "select",
+                    "values": [{
+                            "label": "Eugenia",
+                            "value": "Eugenia",
+                            "role": "Master"
+                        },
+                        {
+                            "label": "Kariane",
+                            "value": "Kariane",
+                            "role": "Master"
+                        }
+                    ],
+                    "children": [],
+                    "text": "Some text"
+                },
+                {
+                    "id": "4",
+                    "type": "text",
+                    "class": "input",
+                    "text": "Some text",
+                    "children": []
+                }
+            ]
+        }]
+    },
+    {
+        "id": "5",
+        "type": "submit",
+        "class": "button",
+        "text": "Submit",
+        "children": [{
+            "id": "6",
+            "type": "text",
+            "class": "input",
+            "text": "Some text",
+            "children": [{
+                "id": "7",
+                "type": "text",
+                "class": "input",
+                "text": "Some text",
+                "children": [
+                    {
+                        "id": "8",
+                        "type": "text",
+                        "class": "input",
+                        "text": "Some text",
+                        "children": []
+                    }
+                ]
+            }]
+        }]
+    }
+]
